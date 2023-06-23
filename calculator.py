@@ -1,3 +1,4 @@
+# ask the question and get the user input
 def question():
     print()
     print("Please select operation -")
@@ -5,6 +6,7 @@ def question():
 
     operation_input = int(input("Select operation 1-4: "))
 
+    # enter the numbers
     num1 = int(input("Enter the 1st number: "))
     num2 = int(input("Enter the 2nd number: "))
     
@@ -19,15 +21,19 @@ def question():
     else:
         print("Invalid operator")
 
+# addition
 def add(num1, num2):
     return num1 + num2
 
+# substraction
 def substract(num1, num2):
     return num1 - num2
 
+# multiplication
 def multiply(num1, num2):
     return num1 * num2
 
+# division
 def divide(num1, num2):
     return num1 / num2
 
